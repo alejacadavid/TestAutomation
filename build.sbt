@@ -12,10 +12,12 @@ lazy val root = (project in file(".")).
     name := "TestAutomation",
     libraryDependencies ++= Seq(
       "io.vavr" % "vavr" % "0.9.2",
-      "org.junit.platform" % "junit-platform-runner" % "1.0.0-M3" % "test",
-      "org.junit.jupiter" % "junit-jupiter-engine" % "5.0.0-M3" % "test",
-      "org.junit.vintage" % "junit-vintage-engine" % "4.12.0-M3" % "test",
-      "com.novocode" % "junit-interface" % "0.11" % "test"
-
+      "junit" % "junit" % "4.12" % "test",
+      "com.codeborne" % "selenide" % "4.12.2",
+      "org.seleniumhq.selenium" % "selenium-java" % "3.13.0" % "test",
+      "io.cucumber" % "cucumber-java" % "2.0.0",
+      "io.cucumber" % "cucumber-core" % "2.0.0",
+      "io.cucumber" % "cucumber-junit" % "2.0.0" % Test,
+      "io.cucumber" % "gherkin" % "5.1.0"
     )
   )
