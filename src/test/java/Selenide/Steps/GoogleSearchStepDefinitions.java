@@ -1,4 +1,4 @@
-package Selenide.ScenarioAndSteps;
+package Selenide.Steps;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.java.en.Given;
@@ -14,8 +14,9 @@ import static com.codeborne.selenide.Selenide.$$;
 import static com.codeborne.selenide.Selenide.open;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"./src/test/resources/features/GoogleSearch.feature"},
-                glue = {"Selenide"})
+@CucumberOptions(features = {"./src/test/resources/features"},
+        glue = {"Selenide/Steps/GoogleSearchStepDefinitions"}
+        /*tags = {"@example1"}*/)
 public class GoogleSearchStepDefinitions {
     private String keyword;
 
@@ -26,7 +27,6 @@ public class GoogleSearchStepDefinitions {
 
     @When("a keyword (.*) is entered in input field")
     public void enterKeyword(String keyword) {
-        //this.keyword = keyword;
         $(By.name("q")).val(keyword).pressEnter();
     }
 
