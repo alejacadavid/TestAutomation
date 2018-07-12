@@ -1,12 +1,12 @@
-Feature: SUbstracting
+# language: es
+  Característica: Resta
 
-  @example1
-  Scenario Outline: substracting
-  Given There are a number <number1>
-  When I substract <number2>
-  Then I should have <result>
+  Esquema del escenario: Resta
+    Dado Hay un número <numero1>
+    Cuando Resto <numero2>
+    Entonces Debería tener <resultado>
 
-  Examples:
-    | number1 | number2 | result |
-    |    12 |   5 |    7 |
-    |    20 |   5 |   15 |
+    Ejemplos:
+    | numero1 | numero2 | resultado |
+    | 12      | 5       | 7         |
+    | 20      | 5       | 15        |

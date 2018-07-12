@@ -1,11 +1,9 @@
 package Selenide.Steps;
 
-import cucumber.api.CucumberOptions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.api.junit.Cucumber;
-import org.junit.runner.RunWith;
+
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.CollectionCondition.size;
@@ -13,10 +11,6 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 import static com.codeborne.selenide.Selenide.open;
 
-@RunWith(Cucumber.class)
-@CucumberOptions(features = {"./src/test/resources/features"},
-        glue = {"Selenide/Steps/GoogleSearchStepDefinitions"}
-        /*tags = {"@example1"}*/)
 public class GoogleSearchStepDefinitions {
     private String keyword;
 
