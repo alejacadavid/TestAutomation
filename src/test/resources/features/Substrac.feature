@@ -1,6 +1,8 @@
+
 # language: es
   Característica: Resta
 
+    @Resta
   Esquema del escenario: Resta
     Dado Hay un número <numero1>
     Cuando Resto <numero2>

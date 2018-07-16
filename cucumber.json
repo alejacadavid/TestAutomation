@@ -3,20 +3,20 @@
     "line": 1,
     "elements": [
       {
-        "line": 9,
-        "name": "Realizar operaciones",
+        "line": 16,
+        "name": "Customer place an order by purchasing an item from search",
         "description": "",
-        "id": "calculadora;realizar-operaciones;;2",
+        "id": "automated-end2end-tests;customer-place-an-order-by-purchasing-an-item-from-search;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 8309726886,
+              "duration": 100969809,
               "status": "passed"
             },
-            "line": 4,
-            "name": "un navegador con la calculadora online",
+            "line": 6,
+            "name": "user is on Home Page",
             "match": {
               "location": "NativeConstructorAccessorImpl.java:-2"
             },
@@ -24,210 +24,16 @@
           },
           {
             "result": {
-              "duration": 246270087,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "el usuario ingrese la operacion \"5+5\" y presione click en el boton \u003d",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5+5",
-                  "offset": 33
-                }
-              ],
-              "location": "NativeConstructorAccessorImpl.java:-2"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 31978882,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "el usuario debería obtener el resultado 10",
-            "match": {
-              "arguments": [
-                {
-                  "val": "10",
-                  "offset": 40
-                }
-              ],
-              "location": "NativeConstructorAccessorImpl.java:-2"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 10,
-        "name": "Realizar operaciones",
-        "description": "",
-        "id": "calculadora;realizar-operaciones;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2141520176,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "un navegador con la calculadora online",
-            "match": {
-              "location": "NativeConstructorAccessorImpl.java:-2"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 238759172,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "el usuario ingrese la operacion \"20-10\" y presione click en el boton \u003d",
-            "match": {
-              "arguments": [
-                {
-                  "val": "20-10",
-                  "offset": 33
-                }
-              ],
-              "location": "NativeConstructorAccessorImpl.java:-2"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 16138808,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "el usuario debería obtener el resultado 10",
-            "match": {
-              "arguments": [
-                {
-                  "val": "10",
-                  "offset": 40
-                }
-              ],
-              "location": "NativeConstructorAccessorImpl.java:-2"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Calculadora",
-    "description": "",
-    "id": "calculadora",
-    "keyword": "Feature",
-    "uri": "./src/test/resources/features/Calculadora.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 3,
-        "name": "user can search any keyword",
-        "description": "",
-        "id": "google-search;user-can-search-any-keyword",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 908333910,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "an open browser with google.com",
-            "match": {
-              "location": "GoogleSearchStepDefinitions.openGoogleSearch()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 275647173,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "a keyword selenide is entered in input field",
-            "match": {
-              "arguments": [
-                {
-                  "val": "selenide",
-                  "offset": 10
-                }
-              ],
-              "location": "GoogleSearchStepDefinitions.enterKeyword(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 650039207,
+              "duration": 2844158,
               "status": "passed"
             },
             "line": 7,
-            "name": "top 10 matches should be shown",
+            "name": "he search for \"dress\"",
             "match": {
               "arguments": [
                 {
-                  "val": "10",
-                  "offset": 4
-                }
-              ],
-              "location": "GoogleSearchStepDefinitions.topTenMatchesShouldBeShown(int)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Google search",
-    "description": "",
-    "id": "google-search",
-    "keyword": "Feature",
-    "uri": "./src/test/resources/features/GoogleSearch.feature"
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 4,
-        "name": "Usuario busca una palabra",
-        "description": "",
-        "id": "buscar-una-palabra-en-google;usuario-busca-una-palabra",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 543993120,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "un navegador con www.google.com",
-            "match": {
-              "location": "NativeConstructorAccessorImpl.java:-2"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 200646212,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "la palabra \"cucumber\" es ingresada en el campo de búsqueda",
-            "match": {
-              "arguments": [
-                {
-                  "val": "cucumber",
-                  "offset": 12
+                  "val": "dress",
+                  "offset": 15
                 }
               ],
               "location": "NativeConstructorAccessorImpl.java:-2"
@@ -236,167 +42,100 @@
           },
           {
             "result": {
-              "duration": 906755951,
+              "duration": 181090,
               "status": "passed"
             },
             "line": 8,
-            "name": "el top 15 debe ser mostrado",
+            "name": "choose to buy the first item",
+            "match": {
+              "location": "NativeConstructorAccessorImpl.java:-2"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148361,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "moves to checkout from mini cart",
+            "match": {
+              "location": "NativeConstructorAccessorImpl.java:-2"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50550653,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter \"Lakshay\" personal details on checkout page",
             "match": {
               "arguments": [
                 {
-                  "val": "15",
+                  "val": "Lakshay",
                   "offset": 7
                 }
               ],
               "location": "NativeConstructorAccessorImpl.java:-2"
             },
-            "keyword": "Then "
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198019,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select same delivery address",
+            "match": {
+              "location": "NativeConstructorAccessorImpl.java:-2"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193120,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select payment method as \"check\" payment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "check",
+                  "offset": 26
+                }
+              ],
+              "location": "NativeConstructorAccessorImpl.java:-2"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 404041,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "place the order",
+            "match": {
+              "location": "NativeConstructorAccessorImpl.java:-2"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Customer"
           }
         ]
       }
     ],
-    "name": "Buscar una palabra en Google",
-    "description": "",
-    "id": "buscar-una-palabra-en-google",
+    "name": "Automated End2End Tests",
+    "description": "  Description: The purpose of this feature is to test End 2 End integration.",
+    "id": "automated-end2end-tests",
     "keyword": "Feature",
-    "uri": "./src/test/resources/features/GoogleSearchJ8.feature"
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 11,
-        "name": "Resta",
-        "description": "",
-        "id": "resta;resta;;2",
-        "type": "scenario",
-        "keyword": "Esquema del escenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4976501,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Hay un número 12",
-            "match": {
-              "arguments": [
-                {
-                  "val": "12",
-                  "offset": 14
-                }
-              ],
-              "location": "SubstractingSteps.hay_un_número(int)"
-            },
-            "keyword": "Dado "
-          },
-          {
-            "result": {
-              "duration": 285408,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Resto 5",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5",
-                  "offset": 6
-                }
-              ],
-              "location": "SubstractingSteps.resto(int)"
-            },
-            "keyword": "Cuando "
-          },
-          {
-            "result": {
-              "duration": 8559133,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Debería tener 7",
-            "match": {
-              "arguments": [
-                {
-                  "val": "7",
-                  "offset": 14
-                }
-              ],
-              "location": "SubstractingSteps.debería_tener(int)"
-            },
-            "keyword": "Entonces "
-          }
-        ]
-      },
-      {
-        "line": 12,
-        "name": "Resta",
-        "description": "",
-        "id": "resta;resta;;3",
-        "type": "scenario",
-        "keyword": "Esquema del escenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 243321,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Hay un número 20",
-            "match": {
-              "arguments": [
-                {
-                  "val": "20",
-                  "offset": 14
-                }
-              ],
-              "location": "SubstractingSteps.hay_un_número(int)"
-            },
-            "keyword": "Dado "
-          },
-          {
-            "result": {
-              "duration": 188761,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Resto 5",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5",
-                  "offset": 6
-                }
-              ],
-              "location": "SubstractingSteps.resto(int)"
-            },
-            "keyword": "Cuando "
-          },
-          {
-            "result": {
-              "duration": 175618,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Debería tener 15",
-            "match": {
-              "arguments": [
-                {
-                  "val": "15",
-                  "offset": 14
-                }
-              ],
-              "location": "SubstractingSteps.debería_tener(int)"
-            },
-            "keyword": "Entonces "
-          }
-        ]
-      }
-    ],
-    "name": "Resta",
-    "description": "",
-    "id": "resta",
-    "keyword": "Característica",
-    "uri": "./src/test/resources/features/Substrac.feature"
+    "uri": "./src/test/resources/features/Customer.feature"
   }
 ]

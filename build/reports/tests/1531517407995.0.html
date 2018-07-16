@@ -1,0 +1,1135 @@
+<html class=" yes-js js_active js js no-touch js_active  vc_desktop  vc_transform  vc_transform  vc_transform " lang="en-US"><head><link rel="stylesheet" type="text/css" href="http://shop.demoqa.com/wp-content/cache/minify/03a89.default.include.b8e892.css" media="all">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+				<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript">document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+			<title>Demo Shopping site – Selenium Automation Framework | Demo Site</title>
+			<style>
+				.wishlist_table .add_to_cart, a.add_to_wishlist.button.alt { border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px; }			</style>
+			<script type="text/javascript">
+				var yith_wcwl_plugin_ajax_web_url = '/wp-admin/admin-ajax.php';
+			</script>
+		<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//ajax.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="Demo Shopping site » Feed" href="http://shop.demoqa.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Demo Shopping site » Comments Feed" href="http://shop.demoqa.com/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/shop.demoqa.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="http://shop.demoqa.com/wp-includes/js/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="layerslider-css" href="http://shop.demoqa.com/wp-content/plugins/LayerSlider/static/css/layerslider.css" type="text/css" media="all">
+<link rel="stylesheet" id="ls-google-fonts-css" href="http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900|Open+Sans:300|Indie+Flower:regular|Oswald:300,regular,700&amp;subset=latin,latin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="http://shop.demoqa.com/wp-content/plugins/contact-form-7/includes/css/styles.css" type="text/css" media="all">
+
+<style id="rs-plugin-settings-inline-css" type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,700);.tp-caption.thin_OS_66{position:absolute; color:#fff; text-shadow:none; font-weight:300; font-size:66px; line-height:70px; font-family:'Open Sans',sans-serif;padding:0px 4px; padding-top:0px;margin:0px; border-width:2px; border-style:none; background-color:transparent}.tp-caption.big_shop{position:absolute; color:#202020; text-shadow:none; font-weight:800; font-size:82px; line-height:82px; font-family:'Open Sans',sans-serif;padding:0px 0px; padding-top:0px;margin:0px; border-width:2px; border-style:none; background-color:transparent}.tp-caption.thin_OS_60{position:absolute; color:#fff; text-shadow:none; font-weight:300; font-size:57px; line-height:70px; font-family:'Open Sans',sans-serif;padding:0px 4px; padding-top:0px;margin:0px; border-width:2px; border-style:none; background-color:transparent}.tp-caption.normal_OS_22{position:absolute; color:#fff; text-shadow:none; font-weight:400; font-size:22px; line-height:28px; font-family:'Open Sans',sans-serif;padding-top:6px;padding-bottom:8px;padding-right:12px;padding-left:12px;border-radius:8px; border-style:none; background-color:rgba(255,255,255,0.1)}.tp-caption.header{position:absolute; color:#2c3641; text-shadow:none; font-weight:300; font-size:52px; line-height:56px; font-family:'Open Sans',sans-serif;padding:0px 4px; padding-top:4px;margin:0px; border-width:10px; border-style:none;   background-color:transparent}.tp-caption.normal_OS_20{position:absolute; color:#fff; text-shadow:none; font-weight:400; font-size:20px; line-height:28px; font-family:'Open Sans',sans-serif;padding:0px 4px; padding-top:1px;margin:0px; border-width:0px; border-style:none; background-color:transparent}.tp-caption.normal_OS_16{position:absolute; color:#fff; text-shadow:none; font-weight:400; font-size:16px; line-height:26px; font-family:'Open Sans',sans-serif;padding:0px 4px; padding-top:1px;margin:0px; border-width:0px; border-style:none; background-color:transparent}.tp-caption.thin_OS_56{position:absolute; color:#fff; text-shadow:none; font-weight:300; font-size:52px; line-height:56px; font-family:'Open Sans',sans-serif;padding:0px 4px; padding-top:1px;margin:0px; border-width:0px; border-style:none; background-color:transparent}.tp-caption.thin_OS_40{position:absolute; color:#fff; text-shadow:none; font-weight:300; font-size:40px; line-height:44px; font-family:'Open Sans',sans-serif;padding:0px 4px; padding-top:1px;margin:0px; border-width:0px; border-style:none; background-color:transparent}.tp-caption.thin_OS_34{position:absolute; color:#fff; text-shadow:none; font-weight:500; font-size:34px; line-height:44px; font-family:'Open Sans',sans-serif;padding:0px 4px; padding-top:1px;margin:0px; border-width:0px; border-style:none; background-color:transparent}.tp-caption.landing_small{position:absolute; color:#fff; text-shadow:none; font-weight:500; font-size:34px; line-height:44px; font-family:'Open Sans',sans-serif;padding:0px 4px; padding-top:1px;margin:0px; border-width:0px; border-style:none; background-color:transparent}.small_button a,.small_button a:hover{color:inherit;  text-decoration:none}
+</style>
+
+
+<link rel="stylesheet" id="jquery-style-css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css" type="text/css" media="all">
+
+
+<link rel="stylesheet" id="woocommerce_prettyPhoto_css-css" href="//shop.demoqa.com/wp-content/plugins/woocommerce/assets/css/prettyPhoto.css" type="text/css" media="all">
+<link rel="stylesheet" id="jquery-selectBox-css" href="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox.css" type="text/css" media="all">
+<link rel="stylesheet" id="yith-wcwl-main-css" href="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="yith-wcwl-font-awesome-css" href="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="http://shop.demoqa.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elegantIcons-css" href="http://shop.demoqa.com/wp-content/themes/noo-umbra/assets/vendor/font-elegant/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="owl_carousel-css" href="http://shop.demoqa.com/wp-content/themes/noo-umbra/assets/css/owl.carousel.css" type="text/css" media="all">
+<link rel="stylesheet" id="owl_theme-css" href="http://shop.demoqa.com/wp-content/themes/noo-umbra/assets/css/owl.theme.css" type="text/css" media="all">
+<link rel="stylesheet" id="noo-umbra-fonts-css" href="https://fonts.googleapis.com/css?family=Lato%3A100%2C300%2C400%2C500%2C600%2C700%2C900%2C300italic%2C400italic%2C700italic%2C900italic%7CDosis%3A100%2C300%2C400%2C500%2C600%2C700%2C900%2C300italic%2C400italic%2C700italic%2C900italic&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="noo-css-css" href="http://shop.demoqa.com/wp-content/themes/noo-umbra/assets/css/noo.css" type="text/css" media="all">
+
+
+<link rel="stylesheet" id="magnific-popup-css" href="http://shop.demoqa.com/wp-content/themes/noo-umbra/assets/vendor/magnific-popup/magnific-popup.css" type="text/css" media="all">
+<link rel="stylesheet" id="noo-megamenu-css" href="http://shop.demoqa.com/wp-content/themes/noo-umbra/includes/admin_assets/css/noo-megamenu.css" type="text/css" media="all">
+<link rel="stylesheet" id="js_composer_front-css" href="http://shop.demoqa.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css" type="text/css" media="all">
+<script type="text/javascript" src="http://shop.demoqa.com/wp-includes/js/jquery/jquery.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/LayerSlider/static/js/greensock.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/LayerSlider/static/js/layerslider.transitions.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"http:\/\/shop.demoqa.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="//shop.demoqa.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/gift-cards-for-woocommerce/assets/js/scripts.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/themes/noo-umbra/assets/vendor/modernizr-2.7.1.min.js"></script>
+
+<link rel="https://api.w.org/" href="http://shop.demoqa.com/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://shop.demoqa.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://shop.demoqa.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.7.11">
+<meta name="generator" content="WooCommerce 2.6.14">
+<link rel="canonical" href="http://shop.demoqa.com/">
+<link rel="shortlink" href="http://shop.demoqa.com/">
+<link rel="alternate" type="application/json+oembed" href="http://shop.demoqa.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fshop.demoqa.com%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://shop.demoqa.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fshop.demoqa.com%2F&amp;format=xml">
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress.">
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://shop.demoqa.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://shop.demoqa.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.3.0.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1482865016466{padding-top: 40px !important;padding-right: 90px !important;padding-bottom: 40px !important;padding-left: 90px !important;}.vc_custom_1465285769156{padding-top: 15px !important;padding-bottom: 45px !important;}.vc_custom_1482865016466{padding-top: 40px !important;padding-right: 90px !important;padding-bottom: 40px !important;padding-left: 90px !important;}.vc_custom_1465285769156{padding-top: 15px !important;padding-bottom: 45px !important;}.vc_custom_1465285769156{padding-top: 15px !important;padding-bottom: 45px !important;}.vc_custom_1465550791157{padding-top: 30px !important;padding-left: 0px !important;}.vc_custom_1465550709194{padding-top: 30px !important;padding-right: 135px !important;padding-left: 135px !important;}.vc_custom_1465283139672{padding-right: 135px !important;padding-left: 135px !important;}.vc_custom_1465550716269{padding-right: 0px !important;}.vc_custom_1465550791157{padding-top: 30px !important;padding-left: 0px !important;}.vc_custom_1465550709194{padding-top: 30px !important;padding-right: 135px !important;padding-left: 135px !important;}.vc_custom_1465550709194{padding-top: 30px !important;padding-right: 135px !important;padding-left: 135px !important;}.vc_custom_1465550791157{padding-top: 30px !important;padding-left: 0px !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="home page-template page-template-page-full-width page-template-page-full-width-php page page-id-522  page-fullwidth full-width-layout wpb-js-composer js-comp-ver-4.12.1 vc_responsive"><div id="yith-wcwl-popup-message" style="display: none;"><div id="yith-wcwl-message"></div></div>
+
+	<div class="site" id="noo-site">
+        
+            
+            <div class="height-fixed" style="height: 80px;"></div><header class="noo-header fixed_top header-1 header-eff">
+                <div class="navbar-wrapper">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="noo-container-fluid">
+            <div class="navbar-logo">
+                <a href="http://shop.demoqa.com/" class="custom-logo-link" rel="home"><img src="http://shop.demoqa.com/wp-content/uploads/2017/03/cropped-SHOP-1-300x80.png" class="custom-logo" alt="" width="300" height="80"></a>                <button data-target=".nav-collapse" class="btn-navbar noo_icon_menu icon_menu" type="button">
+                </button>
+            </div> <!-- / .nav-header -->
+            <nav class="noo-main-menu">
+                <ul id="menu-main-menu" class="nav-collapse navbar-nav"><li id="menu-item-2213" class="noo-menu noo_megamenu mega-col-columns-3   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-tag/women/">Woman</a>
+<ul class="sub-menu">
+	<li id="menu-item-2215" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-category/dresses/">Dresses</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2216" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/dresses/bodycon-dresses/">Bodycon Dresses</a></li>
+		<li id="menu-item-2217" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/dresses/maxi-dresses/">Maxi Dresses</a></li>
+		<li id="menu-item-2218" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/dresses/lace-dresses/">Lace Dresses</a></li>
+		<li id="menu-item-2219" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/dresses/sequin-dresses/">Sequin Dresses</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2220" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-category/coats-jackets/">Coats &amp; Jacket</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2235" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/coats-jackets/jacket/">Jackets</a></li>
+		<li id="menu-item-2221" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/coats-jackets/coat/">Coats</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2222" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-category/accessories">Accessories</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2225" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/shoes/">Shoes</a></li>
+		<li id="menu-item-2223" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/bags/">Bags</a></li>
+		<li id="menu-item-2224" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/watches/">Watches</a></li>
+		<li id="menu-item-2230" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/sunglasses/">Sun Glasses</a></li>
+		<li id="menu-item-2232" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/fragrance/">Fragrance</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-2212" class="noo-menu noo_megamenu mega-col-columns-3   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-tag/men/">Man</a>
+<ul class="sub-menu">
+	<li id="menu-item-2239" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-category/pants-shirts/">Pants &amp; Shirts</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2233" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/pants-shirts/shirt/">Shirts</a></li>
+		<li id="menu-item-2234" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/pants-shirts/pant/">Pants</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2237" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-category/coats-jackets/">Coats &amp; Jackets</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2236" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/coats-jackets/jacket/">Jackets</a></li>
+		<li id="menu-item-2238" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/coats-jackets/coat/">Coats</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2227" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-category/accessories/">Accessories</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2226" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/shoes/">Shoes</a></li>
+		<li id="menu-item-2229" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/sunglasses/">Sun Glasses</a></li>
+		<li id="menu-item-2228" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/watches/">Watches</a></li>
+		<li id="menu-item-2231" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/fragrance/">Fragrance</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-2017" class="noo-menu   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-522 current_page_item "><a href="http://shop.demoqa.com/">Home</a></li>
+<li id="menu-item-2021" class="noo-menu   menu-item menu-item-type-post_type menu-item-object-page "><a href="http://shop.demoqa.com/my-account/">My Account</a></li>
+<li id="menu-item-2269" class="noo-menu   menu-item menu-item-type-post_type menu-item-object-page "><a href="http://shop.demoqa.com/sale/">Sale</a></li>
+</ul>            </nav>
+            <div class="navbar-meta">
+                <ul>
+                                            <li>
+                            <a class="noo-search icon_search" href="#" style=""></a>
+                        </li>
+                                                                <li>
+                            <a class="noo-wishlist icon_heart_alt" href="http://shop.demoqa.com/wishlist/"></a>
+                        </li>
+                                        <li id="nav-menu-item-cart" class="menu-item noo-menu-item-cart minicart"><a title="View cart" class="cart-button" href="http://shop.demoqa.com/cart/"><span class="cart-item"><i class="icon_bag_alt"></i><span class="cart-count">0</span><span class="cart-name-and-total">Cart(0)<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>0.00</span></span></span></a><div class="noo-minicart"><div class="minicart-header">Your shopping bag is empty.</div><div class="minicart-footer"><div class="minicart-actions clearfix"><a class="button pull-left" href="http://shop.demoqa.com/shopping/"><span class="text">Go to the shop</span></a></div></div></div></li>                </ul>
+            </div>
+        </div>
+    </div>
+</div><div class="search-header search-header-eff" style="display: block;">
+    <div class="remove-form"></div>
+    <div class="noo-container">
+        	<form method="GET" class="form-horizontal noo-umbra-searchform" action="http://shop.demoqa.com/">
+		<label class="note-search">Type and Press Enter to Search</label>
+		<input name="s" class="form-control" value="" placeholder="" style="" type="search">
+		<button type="submit" class="noo-search-submit"><i class="icon_search"></i></button>
+		<input name="post_type" value="product" type="hidden">
+	</form>
+    </div>
+</div>
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109033876-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109033876-3');
+</script>
+            </header>
+
+            
+        
+    <div class="page_fullwidth" role="main">
+        <!-- Begin The loop -->
+                                    <div class="noo-container-fluid"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_revslider_element wpb_content_element">
+<div class="forcefullwidth_wrapper_tp_banner" id="rev_slider_7_1_forcefullwidth" style="position:relative;width:100%;height:auto;margin-top:0px;margin-bottom:0px"><div id="rev_slider_7_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-source="gallery" style="background-color: transparent; padding: 0px; height: 639px; margin-top: 0px; margin-bottom: 0px; position: absolute; max-height: none; overflow: visible; width: 1287px; left: 0px;">
+<!-- START REVOLUTION SLIDER 5.3.0.2 fullscreen mode -->
+	<div id="rev_slider_7_1" class="rev_slider fullscreenbanner revslider-initialised tp-simpleresponsive" style="max-height: none; margin-top: 0px; margin-bottom: 0px; height: 100%;" data-version="5.3.0.2" data-slideactive="rs-11">
+<ul class="tp-revslider-mainul" style="visibility: visible; display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;">	<!-- SLIDE  -->
+	<li data-index="rs-11" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeOut" data-easeout="default" data-masterspeed="1300" data-thumb="http://shop.demoqa.com/wp-content/uploads/revslider/home_slider_5/bg-slider5-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
+		<!-- MAIN IMAGE -->
+		<div class="slotholder " style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="http://shop.demoqa.com/wp-content/uploads/revslider/home_slider_5/bg-slider5.jpg" alt="" title="Home" data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">--><div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;http://shop.demoqa.com/wp-content/uploads/revslider/home_slider_5/bg-slider5.jpg&quot;); background-size: cover; background-position: left center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="http://shop.demoqa.com/wp-content/uploads/revslider/home_slider_5/bg-slider5.jpg"></div></div>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 62px; top: 7px; z-index: 5;"><div class="tp-loop-wrap" style="position:absolute;display:block;;"><div class="tp-mask-wrap" style="position: absolute; display: block; overflow: hidden; transform: matrix(1, 0, 0, 1, 0, 0);"><div class="tp-caption   tp-resizeme" id="slide-11-layer-1" data-x="10" data-y="10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames="[{&quot;from&quot;:&quot;z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:900,&quot;ease&quot;:&quot;Power2.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;nothing&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; border-width: 0px; visibility: inherit; transition: none 0s ease 0s; text-align: left; line-height: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 12px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: translate3d(0px, 0px, 0px); transform-origin: 50% 50% 0px;"><img src="http://shop.demoqa.com/wp-content/uploads/revslider/home_slider_5/user1-slider5.png" alt="" data-ww="359px" data-hh="856px" data-no-retina="" style="width: 264.287px; height: 630.166px; transition: none 0s ease 0s; text-align: left; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 9px;" width="359" height="856"> </div></div></div></div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 922px; top: -97px; z-index: 6;"><div class="tp-loop-wrap" style="position:absolute;display:block;;"><div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;"><div class="tp-caption   tp-resizeme" id="slide-11-layer-2" data-x="right" data-hoffset="10" data-y="bottom" data-voffset="" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames="[{&quot;from&quot;:&quot;x:50px;opacity:0;&quot;,&quot;speed&quot;:1500,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:1700,&quot;ease&quot;:&quot;Power3.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;nothing&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; border-width: 0px; visibility: inherit; transition: none 0s ease 0s; text-align: left; line-height: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 12px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: translate3d(0px, 0px, 0px); transform-origin: 50% 50% 0px;"><img src="http://shop.demoqa.com/wp-content/uploads/revslider/home_slider_5/user2-slider5.png" alt="" data-ww="412px" data-hh="1000px" data-no-retina="" style="width: 303.304px; height: 736.175px; transition: none 0s ease 0s; text-align: left; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 9px;" width="412" height="1000"> </div></div></div></div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 501px; top: 206px; z-index: 7;"><div class="tp-loop-wrap" style="position:absolute;display:block;;"><div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;"><div class="tp-caption   tp-resizeme" id="slide-11-layer-3" data-x="center" data-hoffset="-1" data-y="center" data-voffset="-141" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames="[{&quot;from&quot;:&quot;y:-50px;opacity:0;&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:3000,&quot;ease&quot;:&quot;Power4.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;nothing&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 18px; line-height: 18px; font-weight: 400; color: rgb(51, 51, 51); font-family: &quot;Lato&quot;, sans-serif; text-transform: uppercase; border-width: 0px; letter-spacing: 1px; visibility: inherit; transition: none 0s ease 0s; text-align: left; margin: 0px; padding: 0px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: translate3d(0px, 0px, 0px); transform-origin: 50% 50% 0px;">Spring - summer lookbook </div></div></div></div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 485px; top: 234px; z-index: 8;"><div class="tp-loop-wrap" style="position:absolute;display:block;;"><div class="tp-mask-wrap" style="position: absolute; display: block; overflow: hidden; transform: matrix(1, 0, 0, 1, 0, 0);"><div class="tp-caption   tp-resizeme" id="slide-11-layer-4" data-x="center" data-hoffset="" data-y="center" data-voffset="-30" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames="[{&quot;from&quot;:&quot;z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:2200,&quot;ease&quot;:&quot;Power2.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;nothing&quot;}]" data-textalign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: nowrap; font-size: 59px; line-height: 63px; font-weight: 300; color: rgb(51, 51, 51); font-family: &quot;Dosis&quot;, sans-serif; text-transform: uppercase; border-width: 0px; letter-spacing: 2px; visibility: inherit; transition: none 0s ease 0s; text-align: center; margin: 0px; padding: 0px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: translate3d(0px, 0px, 0px); transform-origin: 50% 50% 0px;">umbra blue <br>
+Dress </div></div></div></div>
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 612px; top: 384px; z-index: 9;"><div class="tp-loop-wrap" style="position:absolute;display:block;;"><div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;"><div class="tp-caption   tp-resizeme" id="slide-11-layer-9" data-x="center" data-hoffset="" data-y="center" data-voffset="100" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames="[{&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:2800,&quot;ease&quot;:&quot;Power4.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;nothing&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; white-space: nowrap; font-size: 10px; line-height: 16px; font-weight: 700; color: rgb(51, 51, 51); font-family: &quot;Lato&quot;, sans-serif; border-width: 0px 0px 1px; border-bottom: 1px solid rgb(210, 166, 55); visibility: inherit; transition: none 0s ease 0s; text-align: left; margin: 0px; padding: 0px; letter-spacing: 0px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: translate3d(0px, 0px, 0px); transform-origin: 50% 50% 0px;">SHOP NOW &gt; </div></div></div></div>
+	</li>
+</ul>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important; width: 0%;"></div>	<div class="tp-loader spinner0" style="display: none;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div></div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+				if(htmlDiv) {
+					htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+				}else{
+					var htmlDiv = document.createElement("div");
+					htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+					document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+				}
+			</script>
+		<script type="text/javascript">
+						/******************************************
+				-	PREPARE PLACEHOLDER FOR SLIDER	-
+			******************************************/
+
+			var setREVStartSize=function(){
+				try{var e=new Object,i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+					e.c = jQuery('#rev_slider_7_1');
+					e.gridwidth = [1600];
+					e.gridheight = [868];
+							
+					e.sliderLayout = "fullscreen";
+					e.fullScreenAutoWidth='off';
+					e.fullScreenAlignForce='off';
+					e.fullScreenOffsetContainer= '';
+					e.fullScreenOffset='';
+					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})
+					
+				}catch(d){console.log("Failure at Presize of Slider:"+d)}
+			};
+			
+			setREVStartSize();
+			
+						var tpj=jQuery;
+			
+			var revapi7;
+			tpj(document).ready(function() {
+				if(tpj("#rev_slider_7_1").revolution == undefined){
+					revslider_showDoubleJqueryError("#rev_slider_7_1");
+				}else{
+					revapi7 = tpj("#rev_slider_7_1").show().revolution({
+						sliderType:"hero",
+jsFileLocation:"//shop.demoqa.com/wp-content/plugins/revslider/public/assets/js/",
+						sliderLayout:"fullscreen",
+						dottedOverlay:"none",
+						delay:9000,
+						navigation: {
+						},
+						visibilityLevels:[1240,1024,778,480],
+						gridwidth:1600,
+						gridheight:868,
+						lazyType:"none",
+						shadow:0,
+						spinner:"spinner0",
+						autoHeight:"off",
+						fullScreenAutoWidth:"off",
+						fullScreenAlignForce:"off",
+						fullScreenOffsetContainer: "",
+						fullScreenOffset: "",
+						disableProgressBar:"on",
+						hideThumbsOnMobile:"off",
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						debugMode:false,
+						fallbacks: {
+							simplifyAll:"off",
+							disableFocusListener:false,
+						}
+					});
+				}
+			});	/*ready*/
+		</script>
+		</div><div class="tp-fullwidth-forcer" style="width: 100%; height: 639px;"></div></div><!-- END REVOLUTION SLIDER --></div></div></div></div></div></div><div class="noo-container-fluid"><div class="vc_row wpb_row vc_row-fluid padding-left90 vc_custom_1482865016466"><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-3"><div class="vc_column-inner "><div class="wpb_wrapper">            <div class="noo-services style_left image">
+                <div class="noo-service-icon">
+
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/12/truck.png" class="attachment-thumbnail size-thumbnail" alt="" width="79" height="58">                </div>
+                <div class="noo-service-content">
+                    <h3>FREE SHIPPING </h3>                    <p>Excepteur occaecat cupidatat</p>                </div>
+            </div>
+        </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-3"><div class="vc_column-inner "><div class="wpb_wrapper">            <div class="noo-services style_left image">
+                <div class="noo-service-icon">
+
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/12/Icon_service.png" class="attachment-thumbnail size-thumbnail" alt="" width="68" height="60">                </div>
+                <div class="noo-service-content">
+                    <h3>Secure payment</h3>                    <p>Excepteur occaecat cupidatat</p>                </div>
+            </div>
+        </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-3"><div class="vc_column-inner "><div class="wpb_wrapper">            <div class="noo-services style_left image">
+                <div class="noo-service-icon">
+
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/12/Icon_service2.png" class="attachment-thumbnail size-thumbnail" alt="" width="61" height="72">                </div>
+                <div class="noo-service-content">
+                    <h3> 2 Years Warranty</h3>                    <p>Excepteur occaecat cupidatat</p>                </div>
+            </div>
+        </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-3"><div class="vc_column-inner "><div class="wpb_wrapper">            <div class="noo-services style_left image">
+                <div class="noo-service-icon">
+
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/12/Icon_service3.png" class="attachment-thumbnail size-thumbnail" alt="" width="64" height="54">                </div>
+                <div class="noo-service-content">
+                    <h3>Money back 30 days</h3>                    <p>Excepteur occaecat cupidatat</p>                </div>
+            </div>
+        </div></div></div></div></div><div class="noo-container-fluid"><div class="vc_row wpb_row vc_row-fluid vc_custom_1465285769156"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-5 vc_col-md-5 vc_hidden-sm"><div class="vc_column-inner vc_custom_1465550791157"><div class="wpb_wrapper">            <div class="noo_simple_banner right">
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/05/icon_banner.png" class="attachment-full size-full" alt="" srcset="http://shop.demoqa.com/wp-content/uploads/2016/05/icon_banner.png 462w, http://shop.demoqa.com/wp-content/uploads/2016/05/icon_banner-186x300.png 186w" sizes="(max-width: 462px) 100vw, 462px" width="462" height="746">                <div>
+                    <h3>wo- men’s trends</h3>                                            <a href=""><span>SHOW NOW</span><i class="fa fa-angle-right"></i></a>
+                                    </div>
+            </div>
+
+
+         </div></div></div><div class="padding-stylebox wpb_column vc_column_container vc_col-sm-12 vc_col-lg-7 vc_col-md-7 vc_hidden-sm"><div class="vc_column-inner vc_custom_1465550709194"><div class="wpb_wrapper">            <div class="noo-shortcode-product-wrap">
+            <div class="noo-product-header">
+                <h3><span>For ladies</span></h3>
+
+                <p></p>
+            </div>
+                        <div class="noo-sh-product-grid woocommerce ">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+            <div class="noo-sh-product-html columns_3 no_masonry three">
+            <div class="noo-product-item noo-product-sm-4 noo_featured post-1940 product type-product status-publish has-post-thumbnail product_cat-boyfriend-flared-jeans product_tag-jeans product_tag-women has-featured first instock sale featured shipping-taxable purchasable product-type-simple">
+    <div class="noo-product-inner noo-product-inner2">
+                    <div class="noo-product-thumbnail">
+                <a href="http://shop.demoqa.com/product/the-ash-pin-up-jeans/" class="noo-thumbnail-product hover-device">
+											<img src="http://shop.demoqa.com/wp-content/uploads/2016/12/THE-ASH-PIN-UP-JEANS-270x370.jpg" class="attachment-noo-thumbnail-sq size-noo-thumbnail-sq wp-post-image" alt="THE ASH PIN UP JEANS" width="270" height="370"><img src="http://shop.demoqa.com/wp-content/uploads/2016/12/THE-ASH-PIN-UP-JEANS-270x370.jpg" class="second-img" alt="THE ASH PIN UP JEANS" width="270" height="370">					                </a>
+                            <div class="noo-product-meta">
+                <div class="woocommerce product compare-button"><a href="http://shop.demoqa.com?action=yith-woocompare-add-product&amp;id=1940" class="compare button" data-product_id="1940" rel="nofollow">Compare</a></div>
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-1940">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=1940" rel="nofollow" data-product-id="1940" data-product-type="simple" class="add_to_wishlist">
+        Add to Wishlist</a>
+<img src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" style="visibility:hidden" width="16" height="16">
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>                <span data-id="1940" class="noo-quick-view icon_zoom-in_alt"></span>
+            </div>
+                        </div>
+        <h3><a href="http://shop.demoqa.com/product/the-ash-pin-up-jeans/">THE ASH PIN UP JEANS</a></h3><div class="shop-loo-after-item">
+	<span class="price"><del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>69.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>34.00</span></ins></span>
+<div class="star-rating" title="Rated 0 out of 5"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div></div><div class="noo-loop-cart"><a rel="nofollow" href="/?add-to-cart=1940" data-quantity="1" data-product_id="1940" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>    </div><!--end .noo-product-inner-->
+</div>
+<div class="noo-product-item noo-product-sm-4 noo_featured post-1849 product type-product status-publish has-post-thumbnail product_cat-coat product_tag-coats-and-jackets product_tag-women has-featured  instock featured shipping-taxable purchasable product-type-simple">
+    <div class="noo-product-inner noo-product-inner2">
+                    <div class="noo-product-thumbnail">
+                <a href="http://shop.demoqa.com/product/cotswolds-coating-oversized-coat/" class="noo-thumbnail-product hover-device">
+											<img src="http://shop.demoqa.com/wp-content/uploads/2016/12/COTSWOLDS-COATING-OVERSIZED-COAT-270x370.jpg" class="attachment-noo-thumbnail-sq size-noo-thumbnail-sq wp-post-image" alt="" width="270" height="370"><img src="http://shop.demoqa.com/wp-content/uploads/2016/12/COTSWOLDS-COATING-OVERSIZED-COAT_2-270x370.jpg" class="second-img" alt="" width="270" height="370">					                </a>
+                            <div class="noo-product-meta">
+                <div class="woocommerce product compare-button"><a href="http://shop.demoqa.com?action=yith-woocompare-add-product&amp;id=1849" class="compare button" data-product_id="1849" rel="nofollow">Compare</a></div>
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-1849">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=1849" rel="nofollow" data-product-id="1849" data-product-type="simple" class="add_to_wishlist">
+        Add to Wishlist</a>
+<img src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" style="visibility:hidden" width="16" height="16">
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>                <span data-id="1849" class="noo-quick-view icon_zoom-in_alt"></span>
+            </div>
+                        </div>
+        <h3><a href="http://shop.demoqa.com/product/cotswolds-coating-oversized-coat/">COTSWOLDS COATING OVERSIZED COAT</a></h3><div class="shop-loo-after-item">
+	<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>350.00</span></span>
+<div class="star-rating" title="Rated 0 out of 5"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div></div><div class="noo-loop-cart"><a rel="nofollow" href="/?add-to-cart=1849" data-quantity="1" data-product_id="1849" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>    </div><!--end .noo-product-inner-->
+</div>
+<div class="noo-product-item noo-product-sm-4 noo_featured post-1649 product type-product status-publish has-post-thumbnail product_cat-sequin-dresses product_tag-dress product_tag-women has-featured last instock sale featured shipping-taxable purchasable product-type-simple">
+    <div class="noo-product-inner noo-product-inner2">
+                    <div class="noo-product-thumbnail">
+                <a href="http://shop.demoqa.com/product/snow-sequins-bodycon-dress/" class="noo-thumbnail-product hover-device">
+											<img src="http://shop.demoqa.com/wp-content/uploads/2016/12/SNOW-SEQUINS-BODYCON-DRESS-270x370.jpg" class="attachment-noo-thumbnail-sq size-noo-thumbnail-sq wp-post-image" alt="" width="270" height="370"><img src="http://shop.demoqa.com/wp-content/uploads/2016/12/SNOW-SEQUINS-BODYCON-DRESS_2-270x370.jpg" class="second-img" alt="" width="270" height="370">					                </a>
+                            <div class="noo-product-meta">
+                <div class="woocommerce product compare-button"><a href="http://shop.demoqa.com?action=yith-woocompare-add-product&amp;id=1649" class="compare button" data-product_id="1649" rel="nofollow">Compare</a></div>
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-1649">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=1649" rel="nofollow" data-product-id="1649" data-product-type="simple" class="add_to_wishlist">
+        Add to Wishlist</a>
+<img src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" style="visibility:hidden" width="16" height="16">
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>                <span data-id="1649" class="noo-quick-view icon_zoom-in_alt"></span>
+            </div>
+                        </div>
+        <h3><a href="http://shop.demoqa.com/product/snow-sequins-bodycon-dress/">SNOW SEQUINS BODYCON DRESS</a></h3><div class="shop-loo-after-item">
+	<span class="price"><del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>170.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>102.00</span></ins></span>
+<div class="star-rating" title="Rated 0 out of 5"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div></div><div class="noo-loop-cart"><a rel="nofollow" href="/?add-to-cart=1649" data-quantity="1" data-product_id="1649" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>    </div><!--end .noo-product-inner-->
+</div>
+                    </div><!--end .noo-sh-product-html-->
+                </div><!--end .noo-sh-product-grid-->
+            </div><!--end .noo-shortcode-product-wrap-->
+                        </div></div></div></div></div><div class="noo-container-fluid"><div class="vc_row wpb_row vc_row-fluid padding-left90 vc_custom_1482865016466"><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper">            <div class="noo-services style_left image">
+                <div class="noo-service-icon">
+
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/12/service6.png" class="attachment-thumbnail size-thumbnail" alt="service6" width="116" height="86">                </div>
+                <div class="noo-service-content">
+                                                        </div>
+            </div>
+        </div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper">            <div class="noo-services style_left image">
+                <div class="noo-service-icon">
+
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/12/service4.png" class="attachment-thumbnail size-thumbnail" alt="" width="145" height="73">                </div>
+                <div class="noo-service-content">
+                                                        </div>
+            </div>
+        </div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper">            <div class="noo-services style_left image">
+                <div class="noo-service-icon">
+
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/12/service3.png" class="attachment-thumbnail size-thumbnail" alt="" width="145" height="85">                </div>
+                <div class="noo-service-content">
+                                                        </div>
+            </div>
+        </div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper">            <div class="noo-services style_left image">
+                <div class="noo-service-icon">
+
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/12/service2.png" class="attachment-thumbnail size-thumbnail" alt="" width="112" height="97">                </div>
+                <div class="noo-service-content">
+                                                        </div>
+            </div>
+        </div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper">            <div class="noo-services style_left image">
+                <div class="noo-service-icon">
+
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/12/service5.png" class="attachment-thumbnail size-thumbnail" alt="" width="148" height="64">                </div>
+                <div class="noo-service-content">
+                                                        </div>
+            </div>
+        </div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper">            <div class="noo-services style_left image">
+                <div class="noo-service-icon">
+
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/12/service6.png" class="attachment-thumbnail size-thumbnail" alt="service6" width="116" height="86">                </div>
+                <div class="noo-service-content">
+                                                        </div>
+            </div>
+        </div></div></div></div></div><div class="noo-container-fluid"><div class="vc_row wpb_row vc_row-fluid"><div class="padding-stylebox wpb_column vc_column_container vc_col-sm-12 vc_col-lg-7 vc_col-md-7"><div class="vc_column-inner vc_custom_1465283139672"><div class="wpb_wrapper">            <div class="noo-shortcode-product-wrap">
+            <div class="noo-product-header">
+                <h3><span>DRESSES</span></h3>
+
+                <p></p>
+            </div>
+                        <div class="noo-sh-product-grid woocommerce ">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+            <div class="noo-sh-product-html columns_3 no_masonry three">
+            <div class="noo-product-item noo-product-sm-4 not_featured post-1634 product type-product status-publish has-post-thumbnail product_cat-sequin-dresses product_tag-dress product_tag-women has-featured first instock sale shipping-taxable purchasable product-type-simple">
+    <div class="noo-product-inner noo-product-inner2">
+                    <div class="noo-product-thumbnail">
+                <a href="http://shop.demoqa.com/product/theo-sparkle-embellished-dress/" class="noo-thumbnail-product hover-device">
+											<img src="http://shop.demoqa.com/wp-content/uploads/2016/12/THEO-SPARKLE-EMBELLISHED-DRESS-270x370.jpg" class="attachment-noo-thumbnail-sq size-noo-thumbnail-sq wp-post-image" alt="" width="270" height="370"><img src="http://shop.demoqa.com/wp-content/uploads/2016/12/THEO-SPARKLE-EMBELLISHED-DRESS_2-270x370.jpg" class="second-img" alt="" width="270" height="370">					                </a>
+                            <div class="noo-product-meta">
+                <div class="woocommerce product compare-button"><a href="http://shop.demoqa.com?action=yith-woocompare-add-product&amp;id=1634" class="compare button" data-product_id="1634" rel="nofollow">Compare</a></div>
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-1634">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=1634" rel="nofollow" data-product-id="1634" data-product-type="simple" class="add_to_wishlist">
+        Add to Wishlist</a>
+<img src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" style="visibility:hidden" width="16" height="16">
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>                <span data-id="1634" class="noo-quick-view icon_zoom-in_alt"></span>
+            </div>
+                        </div>
+        <h3><a href="http://shop.demoqa.com/product/theo-sparkle-embellished-dress/">THEO SPARKLE EMBELLISHED DRESS</a></h3><div class="shop-loo-after-item">
+	<span class="price"><del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>185.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>74.00</span></ins></span>
+<div class="star-rating" title="Rated 0 out of 5"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div></div><div class="noo-loop-cart"><a rel="nofollow" href="/?add-to-cart=1634" data-quantity="1" data-product_id="1634" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>    </div><!--end .noo-product-inner-->
+</div>
+<div class="noo-product-item noo-product-sm-4 not_featured post-1639 product type-product status-publish has-post-thumbnail product_cat-sequin-dresses product_tag-dress product_tag-women has-featured  instock shipping-taxable purchasable product-type-variable has-default-attributes has-children">
+    <div class="noo-product-inner noo-product-inner2">
+                    <div class="noo-product-thumbnail">
+                <a href="http://shop.demoqa.com/product/serpent-sequin-dress/" class="noo-thumbnail-product hover-device">
+											<img src="http://shop.demoqa.com/wp-content/uploads/2016/12/SERPENT-SEQUIN-DRESS-270x370.jpg" class="attachment-noo-thumbnail-sq size-noo-thumbnail-sq wp-post-image" alt="" width="270" height="370"><img src="http://shop.demoqa.com/wp-content/uploads/2016/12/SERPENT-SEQUIN-DRESS_2-270x370.jpg" class="second-img" alt="" width="270" height="370">					                </a>
+                            <div class="noo-product-meta">
+                <div class="woocommerce product compare-button"><a href="http://shop.demoqa.com?action=yith-woocompare-add-product&amp;id=1639" class="compare button" data-product_id="1639" rel="nofollow">Compare</a></div>
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-1639">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=1639" rel="nofollow" data-product-id="1639" data-product-type="variable" class="add_to_wishlist">
+        Add to Wishlist</a>
+<img src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" style="visibility:hidden" width="16" height="16">
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>                <span data-id="1639" class="noo-quick-view icon_zoom-in_alt"></span>
+            </div>
+                        </div>
+        <h3><a href="http://shop.demoqa.com/product/serpent-sequin-dress/">SERPENT SEQUIN DRESS</a></h3><div class="shop-loo-after-item">
+	<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>175.00</span></span>
+<div class="star-rating" title="Rated 0 out of 5"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div></div><div class="noo-loop-cart"><a rel="nofollow" href="http://shop.demoqa.com/product/serpent-sequin-dress/" data-quantity="1" data-product_id="1639" data-product_sku="" class="button product_type_variable add_to_cart_button">Select options</a></div>    </div><!--end .noo-product-inner-->
+</div>
+<div class="noo-product-item noo-product-sm-4 noo_featured post-1649 product type-product status-publish has-post-thumbnail product_cat-sequin-dresses product_tag-dress product_tag-women has-featured last instock sale featured shipping-taxable purchasable product-type-simple">
+    <div class="noo-product-inner noo-product-inner2">
+                    <div class="noo-product-thumbnail">
+                <a href="http://shop.demoqa.com/product/snow-sequins-bodycon-dress/" class="noo-thumbnail-product hover-device">
+											<img src="http://shop.demoqa.com/wp-content/uploads/2016/12/SNOW-SEQUINS-BODYCON-DRESS-270x370.jpg" class="attachment-noo-thumbnail-sq size-noo-thumbnail-sq wp-post-image" alt="" width="270" height="370"><img src="http://shop.demoqa.com/wp-content/uploads/2016/12/SNOW-SEQUINS-BODYCON-DRESS_2-270x370.jpg" class="second-img" alt="" width="270" height="370">					                </a>
+                            <div class="noo-product-meta">
+                <div class="woocommerce product compare-button"><a href="http://shop.demoqa.com?action=yith-woocompare-add-product&amp;id=1649" class="compare button" data-product_id="1649" rel="nofollow">Compare</a></div>
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-1649">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=1649" rel="nofollow" data-product-id="1649" data-product-type="simple" class="add_to_wishlist">
+        Add to Wishlist</a>
+<img src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" style="visibility:hidden" width="16" height="16">
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>                <span data-id="1649" class="noo-quick-view icon_zoom-in_alt"></span>
+            </div>
+                        </div>
+        <h3><a href="http://shop.demoqa.com/product/snow-sequins-bodycon-dress/">SNOW SEQUINS BODYCON DRESS</a></h3><div class="shop-loo-after-item">
+	<span class="price"><del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>170.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>102.00</span></ins></span>
+<div class="star-rating" title="Rated 0 out of 5"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div></div><div class="noo-loop-cart"><a rel="nofollow" href="/?add-to-cart=1649" data-quantity="1" data-product_id="1649" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>    </div><!--end .noo-product-inner-->
+</div>
+                    </div><!--end .noo-sh-product-html-->
+                </div><!--end .noo-sh-product-grid-->
+            </div><!--end .noo-shortcode-product-wrap-->
+                        </div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-5 vc_col-md-5 vc_hidden-sm"><div class="vc_column-inner vc_custom_1465550716269"><div class="wpb_wrapper">            <div class="noo_simple_banner left">
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/12/icon_banner2.png" class="attachment-full size-full" alt="" srcset="http://shop.demoqa.com/wp-content/uploads/2016/12/icon_banner2.png 494w, http://shop.demoqa.com/wp-content/uploads/2016/12/icon_banner2-201x300.png 201w" sizes="(max-width: 494px) 100vw, 494px" width="494" height="737">                <div>
+                    <h3>real men’s fashion</h3>                                            <a href="#"><span>SHOW NOW</span><i class="fa fa-angle-right"></i></a>
+                                    </div>
+            </div>
+
+
+         </div></div></div></div></div><div class="noo-container-fluid"><div class="vc_row wpb_row vc_row-fluid vc_custom_1465285769156"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-5 vc_col-md-5 vc_hidden-sm"><div class="vc_column-inner vc_custom_1465550791157"><div class="wpb_wrapper">            <div class="noo_simple_banner right">
+                                <div>
+                    <h3>Accessories</h3>                                            <a href=""><span>SHOW NOW</span><i class="fa fa-angle-right"></i></a>
+                                    </div>
+            </div>
+
+
+         </div></div></div><div class="padding-stylebox wpb_column vc_column_container vc_col-sm-12 vc_col-lg-7 vc_col-md-7 vc_hidden-sm"><div class="vc_column-inner vc_custom_1465550709194"><div class="wpb_wrapper">            <div class="noo-shortcode-product-wrap">
+            <div class="noo-product-header">
+                <h3><span>Show Off</span></h3>
+
+                <p></p>
+            </div>
+                        <div class="noo-sh-product-grid woocommerce ">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+            <div class="noo-sh-product-html columns_3 no_masonry three">
+            <div class="noo-product-item noo-product-sm-4 not_featured post-2183 product type-product status-publish has-post-thumbnail product_cat-fragrance product_tag-fragrance product_tag-women has-featured first instock sale shipping-taxable purchasable product-type-simple">
+    <div class="noo-product-inner noo-product-inner2">
+                    <div class="noo-product-thumbnail">
+                <a href="http://shop.demoqa.com/product/pamper-pack-set/" class="noo-thumbnail-product hover-device">
+											<img src="http://shop.demoqa.com/wp-content/uploads/2016/12/PAMPER-PACK-SET-270x370.jpg" class="attachment-noo-thumbnail-sq size-noo-thumbnail-sq wp-post-image" alt="" width="270" height="370">					                </a>
+                            <div class="noo-product-meta">
+                <div class="woocommerce product compare-button"><a href="http://shop.demoqa.com?action=yith-woocompare-add-product&amp;id=2183" class="compare button" data-product_id="2183" rel="nofollow">Compare</a></div>
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-2183">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=2183" rel="nofollow" data-product-id="2183" data-product-type="simple" class="add_to_wishlist">
+        Add to Wishlist</a>
+<img src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" style="visibility:hidden" width="16" height="16">
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>                <span data-id="2183" class="noo-quick-view icon_zoom-in_alt"></span>
+            </div>
+                        </div>
+        <h3><a href="http://shop.demoqa.com/product/pamper-pack-set/">PAMPER PACK SET</a></h3><div class="shop-loo-after-item">
+	<span class="price"><del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>100.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>60.00</span></ins></span>
+<div class="star-rating" title="Rated 0 out of 5"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div></div><div class="noo-loop-cart"><a rel="nofollow" href="/?add-to-cart=2183" data-quantity="1" data-product_id="2183" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>    </div><!--end .noo-product-inner-->
+</div>
+<div class="noo-product-item noo-product-sm-4 not_featured post-2181 product type-product status-publish has-post-thumbnail product_cat-fragrance product_tag-fragrance product_tag-women has-featured  instock shipping-taxable purchasable product-type-simple">
+    <div class="noo-product-inner noo-product-inner2">
+                    <div class="noo-product-thumbnail">
+                <a href="http://shop.demoqa.com/product/french-connection-unisex-fragrance-115ml/" class="noo-thumbnail-product hover-device">
+											<img src="http://shop.demoqa.com/wp-content/uploads/2016/12/FRENCH-CONNECTION-UNISEX-FRAGRANCE-115ML-270x370.jpg" class="attachment-noo-thumbnail-sq size-noo-thumbnail-sq wp-post-image" alt="" width="270" height="370">					                </a>
+                            <div class="noo-product-meta">
+                <div class="woocommerce product compare-button"><a href="http://shop.demoqa.com?action=yith-woocompare-add-product&amp;id=2181" class="compare button" data-product_id="2181" rel="nofollow">Compare</a></div>
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-2181">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=2181" rel="nofollow" data-product-id="2181" data-product-type="simple" class="add_to_wishlist">
+        Add to Wishlist</a>
+<img src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" style="visibility:hidden" width="16" height="16">
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>                <span data-id="2181" class="noo-quick-view icon_zoom-in_alt"></span>
+            </div>
+                        </div>
+        <h3><a href="http://shop.demoqa.com/product/french-connection-unisex-fragrance-115ml/">FRENCH CONNECTION UNISEX FRAGRANCE 115ML</a></h3><div class="shop-loo-after-item">
+	<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>25.00</span></span>
+<div class="star-rating" title="Rated 0 out of 5"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div></div><div class="noo-loop-cart"><a rel="nofollow" href="/?add-to-cart=2181" data-quantity="1" data-product_id="2181" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>    </div><!--end .noo-product-inner-->
+</div>
+<div class="noo-product-item noo-product-sm-4 not_featured post-2174 product type-product status-publish has-post-thumbnail product_cat-watches product_tag-watch product_tag-women has-featured last instock shipping-taxable purchasable product-type-simple">
+    <div class="noo-product-inner noo-product-inner2">
+                    <div class="noo-product-thumbnail">
+                <a href="http://shop.demoqa.com/product/daisy-36mm-grand-leather-strap-watch/" class="noo-thumbnail-product hover-device">
+											<img src="http://shop.demoqa.com/wp-content/uploads/2016/12/DAISY-36MM-GRAND-LEATHER-STRAP-WATCH-270x370.jpg" class="attachment-noo-thumbnail-sq size-noo-thumbnail-sq wp-post-image" alt="" width="270" height="370">					                </a>
+                            <div class="noo-product-meta">
+                <div class="woocommerce product compare-button"><a href="http://shop.demoqa.com?action=yith-woocompare-add-product&amp;id=2174" class="compare button" data-product_id="2174" rel="nofollow">Compare</a></div>
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-2174">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=2174" rel="nofollow" data-product-id="2174" data-product-type="simple" class="add_to_wishlist">
+        Add to Wishlist</a>
+<img src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" style="visibility:hidden" width="16" height="16">
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>                <span data-id="2174" class="noo-quick-view icon_zoom-in_alt"></span>
+            </div>
+                        </div>
+        <h3><a href="http://shop.demoqa.com/product/daisy-36mm-grand-leather-strap-watch/">DAISY 36MM GRAND LEATHER STRAP WATCH</a></h3><div class="shop-loo-after-item">
+	<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>80.00</span></span>
+<div class="star-rating" title="Rated 0 out of 5"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div></div><div class="noo-loop-cart"><a rel="nofollow" href="/?add-to-cart=2174" data-quantity="1" data-product_id="2174" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>    </div><!--end .noo-product-inner-->
+</div>
+                    </div><!--end .noo-sh-product-html-->
+                </div><!--end .noo-sh-product-grid-->
+            </div><!--end .noo-shortcode-product-wrap-->
+                        </div></div></div></div></div><div class="noo-container-fluid"><div class="vc_row wpb_row vc_row-fluid vc_custom_1465285769156"><div class="padding-stylebox wpb_column vc_column_container vc_col-sm-12 vc_col-lg-7 vc_col-md-7 vc_hidden-sm"><div class="vc_column-inner vc_custom_1465550709194"><div class="wpb_wrapper">            <div class="noo-shortcode-product-wrap">
+            <div class="noo-product-header">
+                <h3><span>Bags</span></h3>
+
+                <p></p>
+            </div>
+                        <div class="noo-sh-product-grid woocommerce ">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+            <div class="noo-sh-product-html columns_3 no_masonry three">
+            <div class="noo-product-item noo-product-sm-4 not_featured post-1972 product type-product status-publish has-post-thumbnail product_cat-bags product_tag-bags product_tag-women has-featured first instock sale shipping-taxable purchasable product-type-simple">
+    <div class="noo-product-inner noo-product-inner2">
+                    <div class="noo-product-thumbnail">
+                <a href="http://shop.demoqa.com/product/clean-pu-carina-clutch/" class="noo-thumbnail-product hover-device">
+											<img src="http://shop.demoqa.com/wp-content/uploads/2016/12/Clean-Pu-Carina-Clutch-270x370.jpg" class="attachment-noo-thumbnail-sq size-noo-thumbnail-sq wp-post-image" alt="" width="270" height="370"><img src="http://shop.demoqa.com/wp-content/uploads/2016/12/Clean-Pu-Carina-Clutch_2-270x370.jpg" class="second-img" alt="" width="270" height="370">					                </a>
+                            <div class="noo-product-meta">
+                <div class="woocommerce product compare-button"><a href="http://shop.demoqa.com?action=yith-woocompare-add-product&amp;id=1972" class="compare button" data-product_id="1972" rel="nofollow">Compare</a></div>
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-1972">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=1972" rel="nofollow" data-product-id="1972" data-product-type="simple" class="add_to_wishlist">
+        Add to Wishlist</a>
+<img src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" style="visibility:hidden" width="16" height="16">
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>                <span data-id="1972" class="noo-quick-view icon_zoom-in_alt"></span>
+            </div>
+                        </div>
+        <h3><a href="http://shop.demoqa.com/product/clean-pu-carina-clutch/">CLEAN PU CARINA CLUTCH</a></h3><div class="shop-loo-after-item">
+	<span class="price"><del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>70.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>35.00</span></ins></span>
+<div class="star-rating" title="Rated 0 out of 5"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div></div><div class="noo-loop-cart"><a rel="nofollow" href="/?add-to-cart=1972" data-quantity="1" data-product_id="1972" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>    </div><!--end .noo-product-inner-->
+</div>
+<div class="noo-product-item noo-product-sm-4 not_featured post-1965 product type-product status-publish has-post-thumbnail product_cat-bags product_tag-bags product_tag-women has-featured  instock sale shipping-taxable purchasable product-type-simple">
+    <div class="noo-product-inner noo-product-inner2">
+                    <div class="noo-product-thumbnail">
+                <a href="http://shop.demoqa.com/product/raw-saddle-saddle-bag/" class="noo-thumbnail-product hover-device">
+											<img src="http://shop.demoqa.com/wp-content/uploads/2016/12/RAW-SADDLE-SADDLE-BAG-270x370.jpg" class="attachment-noo-thumbnail-sq size-noo-thumbnail-sq wp-post-image" alt="" width="270" height="370"><img src="http://shop.demoqa.com/wp-content/uploads/2016/12/RAW-SADDLE-SADDLE-BAG_2-270x370.jpg" class="second-img" alt="" width="270" height="370">					                </a>
+                            <div class="noo-product-meta">
+                <div class="woocommerce product compare-button"><a href="http://shop.demoqa.com?action=yith-woocompare-add-product&amp;id=1965" class="compare button" data-product_id="1965" rel="nofollow">Compare</a></div>
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-1965">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=1965" rel="nofollow" data-product-id="1965" data-product-type="simple" class="add_to_wishlist">
+        Add to Wishlist</a>
+<img src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" style="visibility:hidden" width="16" height="16">
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>                <span data-id="1965" class="noo-quick-view icon_zoom-in_alt"></span>
+            </div>
+                        </div>
+        <h3><a href="http://shop.demoqa.com/product/raw-saddle-saddle-bag/">RAW SADDLE SADDLE BAG</a></h3><div class="shop-loo-after-item">
+	<span class="price"><del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>250.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>100.00</span></ins></span>
+<div class="star-rating" title="Rated 0 out of 5"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div></div><div class="noo-loop-cart"><a rel="nofollow" href="/?add-to-cart=1965" data-quantity="1" data-product_id="1965" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>    </div><!--end .noo-product-inner-->
+</div>
+<div class="noo-product-item noo-product-sm-4 not_featured post-1958 product type-product status-publish has-post-thumbnail product_cat-bags product_tag-bags product_tag-women has-featured last instock sale shipping-taxable purchasable product-type-simple">
+    <div class="noo-product-inner noo-product-inner2">
+                    <div class="noo-product-thumbnail">
+                <a href="http://shop.demoqa.com/product/alexa-faux-leather-saddle-bag/" class="noo-thumbnail-product hover-device">
+											<img src="http://shop.demoqa.com/wp-content/uploads/2016/12/ALEXA-FAUX-LEATHER-SADDLE-BAG-270x370.jpg" class="attachment-noo-thumbnail-sq size-noo-thumbnail-sq wp-post-image" alt="" width="270" height="370"><img src="http://shop.demoqa.com/wp-content/uploads/2016/12/ALEXA-FAUX-LEATHER-SADDLE-BAG_2-270x370.jpg" class="second-img" alt="" width="270" height="370">					                </a>
+                            <div class="noo-product-meta">
+                <div class="woocommerce product compare-button"><a href="http://shop.demoqa.com?action=yith-woocompare-add-product&amp;id=1958" class="compare button" data-product_id="1958" rel="nofollow">Compare</a></div>
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-1958">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=1958" rel="nofollow" data-product-id="1958" data-product-type="simple" class="add_to_wishlist">
+        Add to Wishlist</a>
+<img src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" style="visibility:hidden" width="16" height="16">
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://shop.demoqa.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>                <span data-id="1958" class="noo-quick-view icon_zoom-in_alt"></span>
+            </div>
+                        </div>
+        <h3><a href="http://shop.demoqa.com/product/alexa-faux-leather-saddle-bag/">ALEXA FAUX LEATHER SADDLE BAG</a></h3><div class="shop-loo-after-item">
+	<span class="price"><del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>60.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>30.00</span></ins></span>
+<div class="star-rating" title="Rated 0 out of 5"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div></div><div class="noo-loop-cart"><a rel="nofollow" href="/?add-to-cart=1958" data-quantity="1" data-product_id="1958" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>    </div><!--end .noo-product-inner-->
+</div>
+                    </div><!--end .noo-sh-product-html-->
+                </div><!--end .noo-sh-product-grid-->
+            </div><!--end .noo-shortcode-product-wrap-->
+                        </div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-5 vc_col-md-5 vc_hidden-sm"><div class="vc_column-inner vc_custom_1465550791157"><div class="wpb_wrapper">            <div class="noo_simple_banner left">
+                <img src="http://shop.demoqa.com/wp-content/uploads/2016/05/men_1.png" class="attachment-full size-full" alt="" srcset="http://shop.demoqa.com/wp-content/uploads/2016/05/men_1.png 523w, http://shop.demoqa.com/wp-content/uploads/2016/05/men_1-150x300.png 150w, http://shop.demoqa.com/wp-content/uploads/2016/05/men_1-513x1024.png 513w" sizes="(max-width: 523px) 100vw, 523px" width="523" height="1043">                <div>
+                    <h3>Bags - Rucksacks</h3>                                            <a href=""><span>SHOW NOW</span><i class="fa fa-angle-right"></i></a>
+                                    </div>
+            </div>
+
+
+         </div></div></div></div></div>
+                            <!-- End The loop -->
+    </div> <!-- /.main -->
+	
+    <footer class="wrap-footer">
+                    <!--Start footer widget-->
+            <div class="colophon wigetized">
+                <div class="noo-container">
+                    <div class="noo-row">
+                        <div class="noo-md-3 noo-sm-6 footer-item"><div id="noo_infomation-1" class="widget widget_noo_infomation"><h4 class="widget-title">umbra furniture</h4>            <p class="info-desc">We are a global housewares product design company. We bring thought and creativity to everyday items through original design.</p>            <ul class="noo-infomation-attr">
+                <li>
+                    <span class="text-icon">A</span>
+                    <address>
+                        1001 Milacian Crest Street, Paris France                    </address>
+                </li>
+                <li>
+                    <span class="text-icon">T</span>
+                    <a href="tel:+(084)888-6789">+(084) 888 - 6789</a>
+                </li>
+                <li>
+                    <span class="text-icon">M</span>
+                    <a class="phone-text" href="mailto:http://Contact@Umbra.com" target="_top">Contact@Umbra.com</a>
+                </li>
+            </ul>
+
+
+            </div></div><div class="noo-md-3 noo-sm-6 footer-item"><div id="text-1" class="widget widget_text"><h4 class="widget-title">opening time</h4>			<div class="textwidget"><ul class="noo-opening-time">
+<li>
+Mon - Fri: 8AM - 10PM
+</li>
+<li>
+Sat: 9AM-8PM
+</li>
+<li>
+Sun: Closed
+</li>
+<li>
+We Work All The Holidays
+</li>
+</ul></div>
+		</div></div><div class="noo-md-3 noo-sm-6 footer-item"><div id="nav_menu-2" class="widget widget_nav_menu"><h4 class="widget-title">My Account</h4><div class="menu-my-account-container"><ul id="menu-my-account" class="menu"><li id="menu-item-2194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2194"><a href="http://shop.demoqa.com/my-account/">My Account</a></li>
+<li id="menu-item-2193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2193"><a href="http://shop.demoqa.com/cart/">Cart</a></li>
+<li id="menu-item-2191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2191"><a href="http://shop.demoqa.com/checkout/">Checkout</a></li>
+<li id="menu-item-2192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2192"><a href="http://shop.demoqa.com/wishlist/">Wishlist</a></li>
+<li id="menu-item-2296" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2296"><a href="http://shop.demoqa.com/product-category/voucher/">Vouchers</a></li>
+</ul></div></div></div><div class="noo-md-3 noo-sm-6 footer-item"></div>                    </div>
+                </div>
+            </div>
+            <!--End footer widget-->
+        
+                    <div class="noo-bottom-bar-content">
+               <div class="noo-container">
+                   <a href="#"><img src="http://shop.demoqa.com/wp-content/uploads/2016/04/payment_logo.png" alt="payment"></a>
+<p>@ 2015. Designed with <i class="fa fa-heart text-primary"></i> by NooTheme</p>               </div>
+            </div>
+            </footer>
+</div>
+<!--End .site -->
+
+<a href="#" class="go-to-top hidden-print"><i class="fa fa-angle-up"></i></a>		<script type="text/javascript">
+			function revslider_showDoubleJqueryError(sliderID) {
+				var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+				errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+				errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+				errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+				errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+					jQuery(sliderID).show().html(errorMessage);
+			}
+		</script>
+		<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _wpcf7 = {"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
+<script type="text/javascript" defer="defer" src="//shop.demoqa.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+
+<script type="text/javascript" defer="defer" src="//shop.demoqa.com/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="//shop.demoqa.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-includes/js/jquery/ui/core.min.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-includes/js/jquery/ui/datepicker.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var yith_woocompare = {"ajaxurl":"\/?wc-ajax=%%endpoint%%","actionadd":"yith-woocompare-add-product","actionremove":"yith-woocompare-remove-product","actionview":"yith-woocompare-view-table","added_label":"Added","table_title":"Product Comparison","auto_open":"yes","loader":"http:\/\/shop.demoqa.com\/wp-content\/plugins\/yith-woocommerce-compare\/assets\/images\/loader.gif","button_text":"Compare"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-compare/assets/js/woocompare.min.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-compare/assets/js/jquery.colorbox-min.js"></script>
+<script type="text/javascript" defer="defer" src="//shop.demoqa.com/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js"></script>
+
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","is_user_logged_in":"","ajax_loader_url":"http:\/\/shop.demoqa.com\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader.gif","remove_from_wishlist_after_add_to_cart":"yes","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies are enabled on your browser.","added_to_cart_message":"<div class=\"woocommerce-message\">Product correctly added to cart<\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","move_to_another_wishlist_action":"move_to_another_wishlsit","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem"}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/themes/noo-umbra/assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-includes/js/comment-reply.min.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/themes/noo-umbra/assets/vendor/infinitescroll-2.0.2.min.js"></script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/themes/noo-umbra/assets/js/off-cavnas.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var noo_new = {"ajax_url":"\/wp-admin\/admin-ajax.php","image_loading":"http:\/\/shop.demoqa.com\/wp-content\/themes\/noo-umbra\/assets\/images\/blog-loading.gif"};
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var nooL10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","ajax_finishedMsg":"All posts displayed","home_url":"http:\/\/shop.demoqa.com\/","is_blog":"false","is_archive":"false","is_single":"false","is_shop":"false","is_product":"false","infinite_scroll_end_msg":"All posts displayed","cart_url":"http:\/\/shop.demoqa.com\/cart\/","show_added_popup":"yes","added_to_cart":"Product was successfully added to your cart.","continue_shopping":"Continue shopping","view_cart":"View Cart","is_custom_css_archive":"false","is_custom_css_single":"false","is_customize_changeset_archive":"false","is_customize_changeset_single":"false","is_link_archive":"false","is_link_single":"false","is_product_archive":"false","is_product_single":"false","is_product_variation_archive":"false","is_product_variation_single":"false","is_testimonial_archive":"false","is_testimonial_single":"false","is_team_member_archive":"false","is_team_member_single":"false","is_rp_shop_giftcard_archive":"false","is_rp_shop_giftcard_single":"false"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="http://shop.demoqa.com/wp-content/themes/noo-umbra/assets/js/noo.js"></script>
+
+
+
+<script defer="" type="text/javascript" src="http://shop.demoqa.com/wp-content/cache/minify/03a89.default.include-footer.56b930.js"></script>
+
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><div id="off-canvas-nav"><div class="off-canvas-header"><span class="remove-menumobile icon_close"></span><img src="http://shop.demoqa.com/wp-content/uploads/2017/03/cropped-SHOP-1-300x80.png" class="custom-logo" alt="" width="300" height="80"></div><div class="noo-main-canvas"><ul id="menu-main-menu" class="nav-collapse navbar-nav"><li id="menu-item-2213" class="noo-menu noo_megamenu mega-col-columns-3   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-tag/women/">Woman</a>
+<ul class="sub-menu">
+	<li id="menu-item-2215" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-category/dresses/">Dresses</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2216" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/dresses/bodycon-dresses/">Bodycon Dresses</a></li>
+		<li id="menu-item-2217" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/dresses/maxi-dresses/">Maxi Dresses</a></li>
+		<li id="menu-item-2218" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/dresses/lace-dresses/">Lace Dresses</a></li>
+		<li id="menu-item-2219" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/dresses/sequin-dresses/">Sequin Dresses</a></li>
+	</ul>
+<i class="fa fa-caret-down noo-sub-icon"></i></li>
+	<li id="menu-item-2220" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-category/coats-jackets/">Coats &amp; Jacket</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2235" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/coats-jackets/jacket/">Jackets</a></li>
+		<li id="menu-item-2221" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/coats-jackets/coat/">Coats</a></li>
+	</ul>
+<i class="fa fa-caret-down noo-sub-icon"></i></li>
+	<li id="menu-item-2222" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-category/accessories">Accessories</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2225" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/shoes/">Shoes</a></li>
+		<li id="menu-item-2223" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/bags/">Bags</a></li>
+		<li id="menu-item-2224" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/watches/">Watches</a></li>
+		<li id="menu-item-2230" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/sunglasses/">Sun Glasses</a></li>
+		<li id="menu-item-2232" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/fragrance/">Fragrance</a></li>
+	</ul>
+<i class="fa fa-caret-down noo-sub-icon"></i></li>
+</ul>
+<i class="fa fa-caret-down noo-sub-icon"></i></li>
+<li id="menu-item-2212" class="noo-menu noo_megamenu mega-col-columns-3   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-tag/men/">Man</a>
+<ul class="sub-menu">
+	<li id="menu-item-2239" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-category/pants-shirts/">Pants &amp; Shirts</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2233" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/pants-shirts/shirt/">Shirts</a></li>
+		<li id="menu-item-2234" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/pants-shirts/pant/">Pants</a></li>
+	</ul>
+<i class="fa fa-caret-down noo-sub-icon"></i></li>
+	<li id="menu-item-2237" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-category/coats-jackets/">Coats &amp; Jackets</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2236" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/coats-jackets/jacket/">Jackets</a></li>
+		<li id="menu-item-2238" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/coats-jackets/coat/">Coats</a></li>
+	</ul>
+<i class="fa fa-caret-down noo-sub-icon"></i></li>
+	<li id="menu-item-2227" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children "><a href="http://shop.demoqa.com/product-category/accessories/">Accessories</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2226" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/shoes/">Shoes</a></li>
+		<li id="menu-item-2229" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/sunglasses/">Sun Glasses</a></li>
+		<li id="menu-item-2228" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/watches/">Watches</a></li>
+		<li id="menu-item-2231" class="noo-menu   menu-item menu-item-type-custom menu-item-object-custom "><a href="http://shop.demoqa.com/product-category/accessories/fragrance/">Fragrance</a></li>
+	</ul>
+<i class="fa fa-caret-down noo-sub-icon"></i></li>
+</ul>
+<i class="fa fa-caret-down noo-sub-icon"></i></li>
+<li id="menu-item-2017" class="noo-menu   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-522 current_page_item "><a href="http://shop.demoqa.com/">Home</a></li>
+<li id="menu-item-2021" class="noo-menu   menu-item menu-item-type-post_type menu-item-object-page "><a href="http://shop.demoqa.com/my-account/">My Account</a></li>
+<li id="menu-item-2269" class="noo-menu   menu-item menu-item-type-post_type menu-item-object-page "><a href="http://shop.demoqa.com/sale/">Sale</a></li>
+</ul></div></div></body></html>

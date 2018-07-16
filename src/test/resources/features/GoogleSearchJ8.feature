@@ -1,4 +1,4 @@
-
+@GoogleSearchJ8
 Feature: Buscar una palabra en Google
 
   Scenario: Usuario busca una palabra

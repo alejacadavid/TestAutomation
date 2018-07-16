@@ -1,4 +1,5 @@
-  Feature: Calculadora
+@calculadora
+Feature: Calculadora
 
   Scenario Outline: Realizar operaciones
     Given un navegador con la calculadora online
