@@ -1,4 +1,4 @@
-package Selenide.Steps;
+package Selenide;
 
 import com.codeborne.selenide.Condition;
 import cucumber.api.java8.En;

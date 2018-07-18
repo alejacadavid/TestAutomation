@@ -1,7 +1,9 @@
-package Selenide.Steps;
+package Selenide;
 
 import cucumber.api.java8.En;
 import org.openqa.selenium.By;
+import org.openqa.selenium.remote.LocalFileDetector;
+import org.openqa.selenium.remote.RemoteWebElement;
 
 import static com.codeborne.selenide.CollectionCondition.size;
 import static com.codeborne.selenide.Selenide.$;

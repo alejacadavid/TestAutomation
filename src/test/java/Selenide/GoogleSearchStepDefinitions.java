@@ -1,4 +1,4 @@
-package Selenide.Steps;
+package Selenide;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

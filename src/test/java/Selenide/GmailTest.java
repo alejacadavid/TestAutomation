@@ -1,4 +1,4 @@
-package Selenide.BasicSelenide;
+package Selenide;
 
 import com.codeborne.selenide.Condition;
 import org.junit.BeforeClass;

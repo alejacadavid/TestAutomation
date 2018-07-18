@@ -1,4 +1,4 @@
-package Selenide.Steps;
+package Selenide;
 
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
